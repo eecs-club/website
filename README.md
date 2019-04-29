@@ -3,6 +3,9 @@
 </p>
 # Lowell EECS Club 💻
 The official website of Lowell EECS Club.
+<p>
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/df1f2ea3-1045-4a41-a92e-a2ae78e5ee1b/deploy-status)](https://app.netlify.com/sites/infallible-villani-3d62ab/deploys)
+</p>
 ## Installation
 To develop on this repository, simply clone:
 ```sh
