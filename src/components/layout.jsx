@@ -12,7 +12,11 @@ class Layout extends React.Component {
     return (
       <>
         <div className="outer">
-          <SEO title={this.props.title} />
+          <SEO
+            title={this.props.title}
+            description={this.props.description}
+            img={this.props.img}
+          />
           <Header />
           <main>
             {this.props.children}
@@ -52,6 +56,7 @@ class Layout extends React.Component {
             background: #212121 url(${bg}) no-repeat fixed center;
             background-size: cover;
             padding-bottom: calc(9rem + 50px);
+            min-height: calc(100vh - 17rem)
           }
           div.outer {
             min-height: 100vh;
