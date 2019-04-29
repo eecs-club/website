@@ -11,10 +11,10 @@ const Header = (props) => {
           <img src={logo} alt="EECS Club Logo" />
         </Link>
         <nav>
-          <Link to="/">Home</Link>
-          <Link to="/blog">Blog</Link>
-          <Link to="/info">Info</Link>
-          <Link to="/resources">Resources</Link>
+          <Link activeClassName="active" to="/">Home</Link>
+          <Link activeClassName="active" to="/blog">Blog</Link>
+          <Link activeClassName="active" to="/info">Info</Link>
+          <Link activeClassName="active" to="/resources">Resources</Link>
         </nav>
       </div>
       <style jsx>{`
@@ -61,8 +61,11 @@ const Header = (props) => {
           text-decoration: none;
           color: white;
           font-family: ${theme.fonts.primary};
-          font-weight: 500;
+          font-weight: 400;
           letter-spacing: 1px;
+        }
+        nav > a.active {
+          font-weight: 700;
         }
       `}</style>
     </>
