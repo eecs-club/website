@@ -10,7 +10,7 @@ const Footer = (props) => {
           <IconLink href="https://github.com/eecs-club" icon="fab fa-github" />
           <IconLink href="https://github.com/eecs-club/website"
             icon="fas fa-code" />
-          <IconLink href="https://discord.gg/QYd59n" icon="fab fa-discord" />
+          <IconLink href="https://discord.gg/Nwpx2uf" icon="fab fa-discord" />
         </div>
         <small>© {new Date().getFullYear()} Lowell EECS Club.</small>
       </footer>
