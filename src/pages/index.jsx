@@ -32,7 +32,7 @@ class Home extends React.Component {
             endless.
           </p>
         </div>
-        <a href="https://discord.gg/QYd59n"
+        <a href="https://discord.gg/Nwpx2uf"
            className="discordButton">
           <i className="fab fa-discord" />
           <span>JOIN US</span>
